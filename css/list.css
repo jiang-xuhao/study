@@ -1,0 +1,64 @@
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 18px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 3px 15px;
+}
+.sk-list {
+    float: left;
+    width: 360px;
+    height: 45px;
+    line-height: 45px;
+}
+.sk-list li {
+    float: left;
+}
+.sk-list li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 28px;
+}
+
+
+.sk-con {
+    float: left;
+    margin-left: 10px;
+}
+.sk-con li{
+    float: left;
+}
+.sk-con li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk-con li a:hover {
+    color: #c81623;
+}
+.aicon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.phone-main {
+    width: 1200px;
+}
+.phone-main li {
+    float: left;
+    width: 290px;
+    margin-right: 13px;
+    margin-top: 25px;
+}
+.phone-main li img {
+    width: 100%;
+}
+.phone-main li:hover {
+    border: 1px solid #c81523;
+}
+.phone-main li:nth-child(4n) {
+    margin-right: 0;
+}
